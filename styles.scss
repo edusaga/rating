@@ -37,6 +37,7 @@ body{
     background-color: var(--white);
     background-image:url(./images/bg-pattern-bottom-desktop.svg);
     font-size: var(--fs);
+    margin: auto;
 }
 
 .contenedor{
@@ -272,15 +273,93 @@ body{
 
         .header{
             grid-area: header;
+            font-size:  1.5ch ;
+            line-height: 0.8;
+            text-align: center;
+        
         }
+
+        .header .peq {
+            font-size:  3.3ch ;
+            margin-top: 2rem;
+            text-align: center;
+            line-height: 1.3;
+        }
+
+
+
+
+
+
+
 
         .rating{
             grid-area: rating;
+              
         }
+
+        .rating .rate1{
+            display: flex;
+            flex-direction: column;
+            background-color: var(--light_grayish_magenta);
+            border-radius: 6%;
+            justify-content: center;
+            margin:   auto;
+        }
+        .rating .rate2{
+            display: flex;
+            flex-direction: column;
+            background-color: var(--light_grayish_magenta);
+            border-radius: 6%;
+            justify-content: center;
+            margin:   auto;
+        }
+
+        .rating .rate3{
+            display: flex;
+            flex-direction: column;
+            background-color: var(--light_grayish_magenta);
+            border-radius: 6%;
+            justify-content: center;
+            margin:  auto;
+        }
+
+
+
 
         .personas{
             grid-area: personas;
+
+           display: flex;
+           flex-direction: column;
+           background-color:white;
+        
+           justify-content: space-between;
+          // margin: 0 auto;
+           height: 45rem;
+           align-content:  center;
+              
+            }
+
+        .colton{
+            justify-content: center;
+            margin: auto;
         }
+
+        .irene{
+            justify-content: center;
+            margin: auto;
+        }
+
+        .cargo{
+            justify-content: center;
+            margin: auto;
+        }
+
+
+
+
+
 }
 
 
